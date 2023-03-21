@@ -1,8 +1,8 @@
 <template>
-  <h1>Welcome To My Demo1</h1>
   <NuxtLink to="/">Home</NuxtLink>
   <NuxtLink to="/about">about</NuxtLink>
   <NuxtLink to="/contact">contact</NuxtLink>
+  <slot></slot>
 </template>
 
 <script setup lang="ts">
